@@ -1,0 +1,102 @@
+@media(max-width:500px){
+ .nav-bar{
+  display: inline-block;
+  position: relative;
+  ul{
+    display: block;
+  }
+  .logo{
+    font-size: 10px;
+    i{
+      display: block;
+    }
+  }
+  .btn{
+    text-align: center;
+    width: 200px;
+  }
+ }
+
+#header{
+  line-height: 1rem;
+  display: block;
+  .header-content{
+    h1{font-size: 30px;}
+  }
+}
+
+#company{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    padding-bottom: 10px;
+  }
+}
+
+#tools{
+  display: block;
+}
+
+#trust{
+  margin: 0;
+  padding: 0;
+  .trust-kids{
+    display: block;
+    height: auto;
+    line-height: 1.9rem;
+    .world{
+      // display: flex;
+      .p-10{font-size: 25px;}
+      h2{font-size: 30px;width: 200px;}
+      .p-2{width: 300px;font-size: 20px;}
+      .explore{
+        display: block;
+        p{
+          padding-bottom: 0;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .evidence{
+      display: block;
+      width: 300px;
+      margin-top: 20px;
+      border-top: 1px solid #333;
+      padding-top: 20px;
+      p{font-size: 20px;}
+    }
+  }
+}
+
+#review{
+  height: auto;
+  line-height: 1rem;
+}
+
+#plans{
+  display: block;
+  .plans-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .plans-img{
+    display: block;
+  }
+}
+
+#about{
+  display: block;
+  text-align: center;
+}
+
+#footer{
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 20px 0;
+}
+
+}
