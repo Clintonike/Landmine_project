@@ -355,7 +355,7 @@
     display: inline-block;
     position: relative; }
     .nav-bar ul {
-      display: block; }
+      display: none; }
     .nav-bar .logo {
       font-size: 10px; }
       .nav-bar .logo i {
